@@ -1,0 +1,66 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    border:2px solidgreen;
+    background-color: red;
+}
+ a{
+    display: inline-block;
+    color:black;
+    margin:10px;
+    text-decoration: underline;
+    font-size:20px;
+    border:2px blue;
+    border-block-start-width: 2px;
+    margin-block-start: 5px;
+    margin-block-end: 2px;
+}
+ul a:hover{
+    color:darkcyan;
+    background-color:yellow;
+    font-size: large;
+}
+ul a:active{
+    color:goldenrod;
+}
+table,td,th{
+    text-align: center;
+    border:2px red;
+    width:100%;
+}
+th{
+    height: 25%;
+    width: 25%;
+}
+th{
+    text-size-adjust: 25%;
+    text-align:center;
+    position:initial;
+    vertical-align:40px;
+}
+td{
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+    text-align: center;
+    padding:10px;
+    margin:5px;
+}
+.a1{
+    font-size: 1cm;
+    font-weight: bolder;
+    color:red;
+}
+.a2{
+    text-align: left;
+}
+.a3{
+    background-image:url(college1.png);
+    height:19cm;
+    background-repeat:repeat;
+    background-size:50%;
+    background-position:right;
+}
+.a4{
+    padding-left: 50%;
+}
